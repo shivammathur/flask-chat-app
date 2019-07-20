@@ -1,0 +1,68 @@
+body {
+	background: #007bff!important;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.channel {
+	cursor: pointer;
+}
+
+.back {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+    left: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.author {
+position: absolute;
+    display: block;
+    top: -10px;
+    left: -1px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 5px;
+    background: #ccc;
+}
+
+.self .author {
+    background: #007bff;
+}
+
+.message {
+    background: #eee;
+    border-color: #ddd;
+    float: right;
+    color: #333;
+    width: 70%;
+}
+
+.message.self {
+    float: left;
+    color: #333;
+    background: #cce5ff;
+    border-color: #b8daff;
+}
+
+span.timestamp {
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    font-size: 12px;
+}
+
+.close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 14px;
+    height: 14px;
+}
